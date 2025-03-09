@@ -6,8 +6,15 @@ def roll_dice():
 
 def roll_one_die():
     '''This function rolls one die'''
-    print(random.ranint(0,7))
+    print(random.randint(0,7))
     
+def roll_three_dice():
+        roll_one_die()
+        roll_one_die()
+        roll_one_die()
+
 if __name__ == "__main__":
     roll_dice()
     roll_one_die()
+    print()
+    roll_three_dice()
